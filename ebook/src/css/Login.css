@@ -1,0 +1,218 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 20px 45px 45px 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition-duration: 0.25s;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #68B5FD;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#reg-button, #log-button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #68B5FD;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+#reg-button:hover, #log-button:hover {
+    background: #1890FF;
+
+}
+.form button:hover, .form button:active, .form button:focus {
+    background: #1890FF;
+}
+
+.form div {
+    float: left;
+}
+
+.form .check {
+    margin: left 0;
+    width: 25px;
+}
+
+.form .remember {
+    font-size: 15px;
+    margin-top: auto;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #68B5FD;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+body {
+    
+    background-image: url('../asserts/timg.jpg');
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+} */
+
+
+.login-form-button {
+    width: 100%;
+}
+
+.login-page {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    background-image: "../asserts/timg.jpg";
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    z-index: 99;
+}
+
+
+.login-container {
+    position:relative;
+    width: 400px;
+    margin: 40px 0 0;
+}
+
+.login-page .login-container .login-box {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 40px 15px 40px;
+    backface-visibility: hidden;
+    background: linear-gradient(30deg, rgba(53, 57, 74, 0) 0%, rgb(255, 255, 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(53, 57, 74, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+    box-shadow: -15px 15px 15px rgba(0,0,0,.4);
+}
+
+.ant-btn-primary,.ant-btn-primary:focus{
+    background-color:#363636;
+    border-color:#363636;
+}
+
+.ant-btn-primary:hover {
+    background-color:#828282;
+    border-color:#828282;
+}
+
+a {
+    color:#363636;
+}
+a:hover {
+    color:#828282;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus, .ant-checkbox-input:focus + .ant-checkbox-inner,
+.ant-checkbox-checked::after {
+    border: 1px solid #363636;
+}
+
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+    background-color: #363636;
+    border: 1px solid #363636;
+}
+
+ .login-form {
+    max-width: 400px;
+  }
+
+.login-form-button {
+    width: 100%;
+  }

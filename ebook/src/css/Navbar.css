@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+#Logo {
+    height: 48px;
+}
+
+.header-right {
+    margin: auto;
+    padding: auto;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+#thumbnail {
+    margin-top: -30px;
+    padding: auto auto;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#greet {
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: large;
+}
+
+#bookstore {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: large;
+    color: #fff;
+}
